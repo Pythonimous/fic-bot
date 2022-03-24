@@ -12,7 +12,7 @@ setup(
    author='Kirill Nikolaev',
    author_email='kir.nikolaev.7@gmail.com',
    url="https://github.com/Pythonimous/fic-bot",
-   packages=find_packages(include=['ficbot', 'ficbot.*']
+   packages=find_packages(include=['ficbot', 'ficbot.*']),
    install_requires=['wheel', 'setuptools', 'numpy', 'cython',
                      'Pillow', 'ImageHash',
                      'requests', 'bs4', 'beautifulsoup4', 'selenium',
